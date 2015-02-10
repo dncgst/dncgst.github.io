@@ -3,6 +3,24 @@ dncgst.github.io
 
 ## dncgst.gnewarchaeology.it
 
-### a personal website
+### Structure ###
+<pre>
+.  
+|-- .gitignore
+|-- CNAME
+|-- LICENSE  
+|-- README.md
+`-- index.html  
+</pre>
 
+#### .gitignore ####
 
+#### CNAME ####
+
+#### LICENSE ####
+
+#### README ####
+
+#### index.html ####
+
+### Usage ###
