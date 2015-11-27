@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               GNewArchaeology
+tagline:             Free/Libre Software and Reproducible Research in Archaeology
+url:                 http://gnewarchaeology.it
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +20,20 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Domenico Giusti
+###  url:               https://twitter.com/
+  email:             dncgst@gnewarchaeology.it
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/dncgst/dncgst.github.io
+
+# Defaults
+defaults:
+  -
+scope:
+	path: "" # an empty string here means all files in the project 
+	type: "posts" # previously `post` in Jekyll 2.2.
+values:
+	layout: "default"
