@@ -1,2 +1,3 @@
-### Emacs backup
-*~
+_site
+.sass-cache
+.jekyll-metadata
