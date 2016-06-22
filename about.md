@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: About me
+permalink: /about/
 ---
 
 [Mail](dncgst@gnewarchaeology.it)
