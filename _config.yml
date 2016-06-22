@@ -1,8 +1,6 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               GNewArchaeology
@@ -21,7 +19,6 @@ sass:
 # About/contact
 author:
   name:              Domenico Giusti
-###  url:               https://twitter.com/
   email:             dncgst@gnewarchaeology.it
 
 # Custom vars
