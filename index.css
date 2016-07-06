@@ -1,0 +1,33 @@
+/* index.css
+   Home page style of gnewarchaeology.it */
+
+body{
+    font-size: 1em;
+    font-family: serif, sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+header{
+    text-align: center;
+}
+
+header figure{
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body a:link, body a:visited{
+    color: #0000FF;
+    text-decoration: none;
+}
+body a:active, body a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+div.section{
+    margin-top: 25px;
+}
