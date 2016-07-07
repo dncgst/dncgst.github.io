@@ -55,25 +55,24 @@ header figure{
 }
 
 nav {
-    padding: 20px;	
+    padding: 50px;	
 }
 
 nav ul, nav:active ul { 
     display: none;
     position: absolute;
-    width: 35%;
+    width: 25%;
     left: 29%;
-    top: 60px;
-    padding: 20px;
-    border: 5px solid #444;
-    border-radius: 4px 4px 4px 4px; /*4px 0px 4px 4px*/
+    top: 50px;
+    padding: 50px;
+    border: 1px solid #444;
+    border-radius: 1px 1px 1px 1px; /*4px 0px 4px 4px*/
     background: #fff;
 }
 
 nav li {
     width: 100%;
     line-height: 1.6em;
-    font-weight: bold;
     padding: 10px 0;
     margin: 0;
 }
@@ -87,10 +86,10 @@ nav ul {
 }
 
 body a:link, body a:visited{
-    color: #0000FF;
+    color: steelblue;
     text-decoration: none;
 }
 body a:active, body a:hover{
-    color: #000000;
+    color: steelblue;
     text-decoration: none;
 }
