@@ -85,10 +85,10 @@ nav ul {
 }
 
 body a:link, body a:visited{
-    color: steelblue;
+    color: #2662aa;
     text-decoration: none;
 }
 body a:active, body a:hover{
-    color: steelblue;
+    color: #2662aa;
     text-decoration: none;
 }
