@@ -6,7 +6,6 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-<<<<<<< HEAD
 title: GNewArchaeology
 email: dncgst@gnewarchaeology.it
 description: > # this means to ignore newlines until "baseurl:"
@@ -15,16 +14,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.gnewarchaeology.it" # the base hostname & protocol for your site
 #twitter_username: dncgst
 github_username: dncgst
-=======
-title: gnewarchaeology
-email: dncgst@gnewarchaeology.it
-description: > # this means to ignore newlines until "baseurl:"
-  Free/Libre Software, Literate Programming and Reproducible Research in Archaeology
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.gnewarchaeology.it" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  dncgst
->>>>>>> 645351ae77908674354d384614723213468b3003
 
 # Build settings
 markdown: kramdown
