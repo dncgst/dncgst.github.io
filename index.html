@@ -9,7 +9,6 @@
     <meta name="application-name" content="Home page">
     <meta name="author" content="Domenico Giusti <dncgst@gnewarchaeology.it>">
     <meta name="description" content="gnewarchaeology home page">
-    <meta name="generator" content="GNU Emacs">
     <meta name="keywords" content="Free/Libre Software">
     <meta name="keywords" content="Literate Programming">
     <meta name="keywords" content="Reproducible Research">
@@ -28,12 +27,27 @@
 	</a>
 	<ul>
 	  <li><a href="_pages/about.md">about</a></li>
+	  <li><a href="_pages/posts">posts</a></li>
 	  <li><a href="_pages/research.md">research</a></li>
 	  <li><a href="https://github.com/dncgst/">code</a></li>
 	  <li><a href="http://www.wiki.gnewarchaeology.it/">wiki</a></li>
 	  <li><a href="https://www.cloud.gnewarchaeology.it/">cloud</a></li>
-	</ul>	
+	</ul>
+      </nav>
     </header>
+
+    <article>
+      <section>
+	<ul>
+	  {% for post in site.posts %}
+	  <li>
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	    {{ post.excerpt }}
+	  </li>
+	  {% endfor %}
+	  </ul>
+      </section>
+    </article>
     
   </body>
   
