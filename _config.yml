@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: GNewArchaeology
+title: gnewarchaeology
 email: dncgst@gnewarchaeology.it
 description: > # this means to ignore newlines until "baseurl:"
   Free/Libre Software, Literate Programming and Reproducible Research in Archaeology.
