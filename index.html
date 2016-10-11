@@ -40,15 +40,30 @@
 
     <!-- posts -->
     <section id="posts">
-      <div class="section">
-	<h3>Posts</h3>
-      </div>
-      <p></p>
+      <div class="post">
+	
+	<article class="post-content">
+	  {{ content }}
+	</article>
+	
+	<ul class="post-list">
+	  {% for post in site.posts %}
+	  {% if post.type == "news" %}
+	  <li>
+	    <strong>{{ post.title }}</strong>
+	    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br/>
+	    {{ post.content }}
+	  </li>
+	  {% endif %}
+	  {% endfor %}
+	</ul>
+	
+      </div>	
     </section>
 
     <!-- contact -->
     <section id="contact">
-      <div class="section">
+      <div class="contact">
 	<h3>Contact</h3>
       </div>
       <address>
