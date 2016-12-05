@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The need for a taphonomic perspective in spatial analysis: Formation processes at the Early Pleistocene site of Pirro Nord (P13), Apricena, Italy
+title: The need for a taphonomic perspective in spatial analysis. Formation processes at the Early Pleistocene site of Pirro Nord (P13), Apricena, Italy
+date: 2016-06-27
 category: research
 tags: [Spatial analysis, Point pattern analysis, Site formation processes, Taphonomy, Early Pleistocene, Lower Paleolithic, Pirro Nord 13]
 ---
